@@ -17,17 +17,7 @@
 #define STB_IMAGE_IMPLEMENTATION
 #include"3rd Party/stb_image.h"
 
-#include "3D_Model.hpp"
-#include "Mesh.hpp"
-#include "Texture.hpp"
-#include "Cursor.h"
-#include "Controls.h"
-#include "Vertex.h"
-#include "Merger.h"
 #include "Shader.h"
-#include "Util.h"
-#include "VBO.h"
-#include "EBO.h"
 #include "GLFWapp.hpp"
 
 #define WIN_NULL L"NULLPTR WINDOW"
