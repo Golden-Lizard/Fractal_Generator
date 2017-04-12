@@ -95,7 +95,7 @@ int wmain(int argc, wchar_t ** argv)
 	GLFWapp viewer(name);
 	viewer.setKeyCallBack();
 
-	Shader myShader(L"VertexShader_01.glsl", L"FragmentShader_01.glsl");
+	Shader myShader(L"VertexShader_01.glsl", L"Mandelbrot.glsl");
 	myShader.check();
 
 	glEnable(GL_CULL_FACE);
